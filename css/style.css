@@ -1459,6 +1459,7 @@ a.btn:hover {
 .element {
   height: 150px;
 
+  border: 1px solid #10224D;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -1472,6 +1473,7 @@ a.btn:hover {
   height: 150px;
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
+  
 }
 .short {
   display: block;
@@ -2106,10 +2108,15 @@ a.btn:hover {
   }
   .timeline.timeline .timeline-label {
     transform: translateX(-50%);
-    margin: 0 0 20px 42px;
+    margin: 0 0 20px auto;
   }
   .timeline.timeline .timeline-label + .timeline-item + .timeline-item {
     margin-top: 0;
   }
 }
+
+/* ============================================================================= */
+/*                              Price Section                                    */
+/* ============================================================================= */
+
 
