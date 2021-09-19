@@ -511,12 +511,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: transparent;
-  -webkit-text-stroke: 1px #50b7e2;
+  -webkit-text-stroke: 1px #fff;
   font-family: "Raleway", sans-serif;
   font-size: 85px;
   font-weight: 600;
   text-transform: uppercase;
-  background: url(../img/whiteback.png);
+  background: url(../img/blueback.png);
   -webkit-background-clip : text;
   background-position: 0 0;
   animation: mymove 22s linear infinite;

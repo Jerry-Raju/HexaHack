@@ -510,16 +510,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: #fff;
+  color: transparent;
+  -webkit-text-stroke: 1px #50b7e2;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 85px;
   font-weight: 600;
   text-transform: uppercase;
+  background: url(../img/whiteback.png);
+  -webkit-background-clip : text;
+  background-position: 0 0;
+  animation: mymove 22s linear infinite;
   
 }
-
-#intro h1 span {
-  color: #50b7e2;
+@keyframes mymove {
+  100%{
+    background-position: 2000px 0;
+  }
+  
 }
 
 #intro p {
@@ -657,7 +664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/about-bg1.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
