@@ -510,7 +510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: #fff;
+  color: transparent;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -519,7 +519,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #50b7e2;
+  color: transparent;
 }
 
 #intro p {
