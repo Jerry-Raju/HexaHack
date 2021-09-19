@@ -528,14 +528,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   
 }
-#intro h1 span {
-  color: transparent;
-  -webkit-text-stroke: 3px #50b7e2;
-  background: url(../img/whiteback.png);
-  -webkit-background-clip : text;
-  background-position: 0 0;
-  animation: mymove 20s linear infinite;
-}
+
 
 
 #intro p {
