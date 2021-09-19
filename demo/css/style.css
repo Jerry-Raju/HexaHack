@@ -511,22 +511,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: transparent;
+  -webkit-text-stroke: 2px #50b7e2;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 85px;
   font-weight: 600;
   text-transform: uppercase;
+  background: url(../img/whiteback.png);
+  -webkit-background-clip : text;
+  background-position: 0 0;
+  animation: mymove 22s linear infinite;
   
 }
-
+@keyframes mymove {
+  100%{
+    background-position: 2000px 0;
+  }
+  
+}
 #intro h1 span {
   color: transparent;
+  -webkit-text-stroke: 3px #50b7e2;
+  background: url(../img/whiteback.png);
+  -webkit-background-clip : text;
+  background-position: 0 0;
+  animation: mymove 20s linear infinite;
 }
+
 
 #intro p {
   color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
-}
+}   
 
 #intro .play-btn {
   width: 94px;
