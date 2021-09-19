@@ -919,6 +919,10 @@
     </footer>
     <!-- #footer -->
 
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
     <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
     <!-- JavaScript Libraries -->
@@ -934,6 +938,12 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+   });
+    </script>
 
     <!-- devfolio -->
     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
