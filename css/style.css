@@ -421,6 +421,18 @@ h6 {
   padding-left: 30px;
 }
 
+#mobile-nav li.buy-tickets a{
+  color: #fff;
+  background: #7289d9; 
+  border: 2px solid #0e1b4d;
+  width: 140px;
+  border-radius: 50px;
+} 
+#mobile-nav li.buy-tickets a:hover{
+  background: transparent;
+  color: #fff;
+}
+
 #mobile-nav ul .menu-has-children i {
   position: absolute;
   right: 0;
