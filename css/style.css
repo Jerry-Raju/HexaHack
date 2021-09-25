@@ -1806,7 +1806,7 @@ a.btn:hover {
   margin-left: 6px;
   margin-right: 6px;
   color: #10224D;
-  background: #50b7e2;
+  background:white;
 }
 .timeline .timeline-item > .timeline-point.timeline-point-default {
   color: #10224D;
@@ -1846,7 +1846,7 @@ a.btn:hover {
 .timeline .timeline-label .label-primary {
   background-color: #10224D;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 5px;
 }
 
