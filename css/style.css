@@ -916,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #10224D;
+  background: #101522;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
@@ -1844,7 +1844,7 @@ a.btn:hover {
 }
 
 .timeline .timeline-label .label-primary {
-  background-color: #50b7e2;
+  background-color: #10224D;
   color: #fff;
   border-radius: 10px;
   padding: 5px;
