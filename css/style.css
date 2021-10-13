@@ -1318,7 +1318,7 @@ a.btn:hover {
   padding: 1px 0;
   list-style: none;
   font-weight: 300;
-  filter: blur(5px);
+  filter: blur(4px);
 }
 .timeline .timeline-item {
   padding-left: 0;
